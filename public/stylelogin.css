@@ -1,0 +1,49 @@
+ h1{
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(218,165,32);
+    }
+
+     form .btn {
+        margin-top: 1rem;
+        display: inline-block;
+        padding: 0.5rem 2rem;
+        font-size: 1.5rem;
+        color: #fff;
+        background-color: #d9a91a;
+        cursor: pointer;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+
+      h6{
+        font-weight: bold;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color:rgb(232, 188, 76);
+      }
+
+    /* Mobile Phone */
+    @media (max-width: 767px) {
+        html{
+            position: inherit;
+        }
+        h1 {
+            font-size: 24px; /* Mengurangi ukuran font h1 pada tampilan mobile */
+        }
+
+        form .btn {
+            padding: 0.5rem 2rem; /* Mengurangi ukuran padding tombol */
+            font-size: 1rem; /* Mengurangi ukuran font tombol */
+        }
+
+        h6 {
+            font-size: 14px; /* Mengurangi ukuran font h6 pada tampilan mobile */
+        }
+    }
+
+    /* CSS untuk tampilan tablet */
+    @media (min-width: 768px) and (max-width: 1023px) {
+       form .btn {
+        padding: 0.5rem 3rem; /* Mengurangi ukuran padding tombol */
+        font-size: 1rem; /* Mengurangi ukuran font tombol */
+    }
+    }
